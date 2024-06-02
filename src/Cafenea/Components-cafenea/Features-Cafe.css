@@ -1,0 +1,41 @@
+.features__grid-cafe {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feature__item-cafe {
+  background-color: var(--container-color);
+  padding: 2rem;
+  border-radius: var(--radius);
+  position: relative;
+  transition: 0.5s var(--transition);
+}
+.feature__item-cafe::before {
+  content: "";
+  position: absolute;
+  inset: 0.75rem;
+  border: 2px solid var(--first-color);
+  opacity: 0.2;
+  border-radius: inherit;
+}
+
+.feature__title-cafe {
+  font-size: var(--h3--ont-size);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.features__img-cafe {
+  width: 60px;
+  margin-bottom: 1.25rem;
+}
+.feature__shape-cafe {
+  display: absolute;
+  width: 120px;
+  right: 1.25rem;
+  top: 3rem;
+  opacity: 0.2;
+}
+
+.feature__item-cafe:hover {
+  transform: translateY(-0.5rem);
+}

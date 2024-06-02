@@ -1,0 +1,57 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close-btn {
+  float: right;
+  border: none;
+  background: transparent;
+  font-size: 1.5em;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.calendar div {
+  width: 45%;
+}
+
+.calendar h3 {
+  text-align: center;
+}
+
+.calendar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.calendar li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.calendar li:hover {
+  background: #ddd;
+}

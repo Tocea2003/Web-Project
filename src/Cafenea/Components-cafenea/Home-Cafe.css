@@ -1,0 +1,43 @@
+.home-cafe {
+  background: center / cover url(../assets/images/home-bg.png);
+  min-height: calc(100vh + var(--header-height));
+  display: flex;
+  align-items: center;
+}
+.home__container-cafe {
+  width: 100%;
+}
+
+.home__content-cafe {
+  max-width: 660px;
+}
+.home__subtitle-cafe,
+.home__description-cafe {
+  color: var(--title-color);
+}
+
+.home__subtitle-cafe {
+  font-family: var(--secondary-font);
+  font-size: var(--h1-font-size);
+  font-weight: var(--weight-500);
+}
+.home__title-cafe {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--weight-700);
+  margin-block: 1.25rem;
+}
+
+.home__description-cafe {
+  margin-bottom: 2.25rem;
+}
+.home__btns-cafe {
+  display: flex;
+  column-gap: 2rem;
+}
+.home__btn-cafe {
+  background-color: transparent;
+}
+.home__btn-cafe:hover {
+  background-color: var(--first-color);
+  color: var(--title-color);
+}
