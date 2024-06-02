@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu-Cafe.css";
-import { menu } from "../data/Data.jsx";
+import { menu } from "../data/Data";
 const MenuCafe = () => {
   return (
     <>

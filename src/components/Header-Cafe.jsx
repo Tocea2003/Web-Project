@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets2/images/logo.png";
 import "./Header-Cafe.css";
-import { links } from "src/data/Data.jsx";
+import { links } from "../data/Data";
 import { FaStream } from "react-icons/fa";
 
 const HeaderCafe = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../data/Data.jsx";
+import { features } from "../data/Data";
 import shape from "../assets2/images/shape.png";
 import "./Features-Cafe.css";
 

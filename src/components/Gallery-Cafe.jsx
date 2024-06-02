@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery-Cafe.css";
-import { gallery } from "../data/Data.jsx";
+import { gallery } from "../data/Data";
 import { BsPlusLg } from "react-icons/bs";
 
 const GalleryCafe = () => {
