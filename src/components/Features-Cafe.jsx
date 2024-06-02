@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../Data";
+import { features } from "../data/Data.jsx";
 import shape from "../Cafenea/assets/images/shape.png";
 import "./Features-Cafe.css";
 

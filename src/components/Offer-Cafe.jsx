@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-import { offer } from "../Data";
+import { offer } from "../data/Data";
 
 const OfferCafe = () => {
   return (

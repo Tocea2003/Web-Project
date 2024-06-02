@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "/src/Cafenea/assets/images/logo.png";
 import "./Header-Cafe.css";
-import { links } from "/src/Cafenea/assets/Data.jsx";
+import { links } from "src/data/Data.jsx";
 import { FaStream } from "react-icons/fa";
 
 const HeaderCafe = () => {
