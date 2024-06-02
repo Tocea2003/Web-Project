@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "../Cafenea/assets/images/about-img.jpg";
+import aboutimg from "../assets2/images/about-img.jpg";
 import "./About-Cafe.css";
 import { FiCheck } from "react-icons/fi";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/src/Cafenea/assets/images/logo.png";
+import logo from "../assets2/images/logo.png";
 import "./Header-Cafe.css";
 import { links } from "src/data/Data.jsx";
 import { FaStream } from "react-icons/fa";
