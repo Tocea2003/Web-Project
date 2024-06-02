@@ -1,5 +1,5 @@
 import React from "react";
-import "./Offer-Cafe.css";
+import "../styles/Offer-Cafe.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

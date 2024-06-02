@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets2/images/logo.png";
-import "./Header-Cafe.css";
+import logo from "../assets/logo.png";
+import "../styles/Header-Cafe.css";
 import { links } from "../data/Data";
 import { FaStream } from "react-icons/fa";
 

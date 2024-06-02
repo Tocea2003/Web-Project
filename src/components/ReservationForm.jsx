@@ -1,6 +1,6 @@
 // src/components/ReservationForm.jsx
 import React, { useState } from "react";
-import "./ReservationForm.css";
+import "../styles/ReservationForm.css";
 
 import { db, collection, addDoc, serverTimestamp } from "../config/firebase";
 
