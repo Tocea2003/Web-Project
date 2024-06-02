@@ -1,6 +1,6 @@
 import React from "react";
 import { features } from "../Data";
-import shape from "../assets/images/shape.png";
+import shape from "../Cafenea/assets/images/shape.png";
 import "./Features-Cafe.css";
 
 const FeaturesCafe = () => {
