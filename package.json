@@ -2,7 +2,8 @@
   "homepage": "https://Tocea2003.github.io/Web-Project",
   "name": "smart-camps-sibiu",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "main": "index.jsx",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +38,17 @@
     "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.0",
     "vite": "^5.1.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
