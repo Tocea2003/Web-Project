@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./ReservationForm.css";
 
-import { db, collection, addDoc, serverTimestamp } from "../../config/firebase";
+import { db, collection, addDoc, serverTimestamp } from "../config/firebase";
 
 const ReservationForm = () => {
   const [name, setName] = useState("");
